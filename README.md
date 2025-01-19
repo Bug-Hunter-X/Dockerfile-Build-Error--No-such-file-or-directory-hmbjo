@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles where the requirements.txt file, necessary for installing Python packages, is missing.  The initial Dockerfile attempts to use a non-existent file, resulting in a build failure. The solution shows how to correct this by properly including the requirements.txt file in the build context.
